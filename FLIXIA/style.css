@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--milk);
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+}
+
+/* VARIABLES */
+:root {
+    --navyblue: #172626;
+    --milk: #ebebeb;
+    --yellow: #edae39;
+    --mixedNY: #947021;
+    --ash: #808694;
+    --lightyellow: #f4d499;
+    --lightblue: #b6b9c0;
+    --NB2: #13203C;
+    --MILK2: #ececec;
+    --YLW2: #fbbb47;
+    --MIX: #d09224;
+}
+
+/* HEADER */
+.navbar {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+img {
+    width: 200px;
+}
+
+
+button {
+    color: var(--nayblue);
+    font-weight: bold;
+    background-color: var(--yellow);
+    border: transparent;
+    padding: 5px 25px;
+    border-radius: 25px;
+}
+/* HEADER ENDS */
+
+/* HERO SECTION BEGINS*/
+.hero {
+    width: 100%;
+}
+
+.HEAD1 {
+    width: 45%;
+    padding: 50px 15px;
+    padding-right: 20px;
+    margin-top: 130px;
+   
+}
+.head1 {
+    font-weight:700;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.head2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn2 {
+    padding-top: 20px;
+}
+
+.img2 {
+    float: right;
+    margin-right: 5px;
+    margin-top: -400px;
+    border-radius: 25px;
+    width: 55%;
+}
+
+/* SHOWCASE BEGINS */
+.showcase {
+    padding: 0 20px;
+    border-radius: 20px;
+    width: 100%;
+    background-image: url(/images/houseofthedragon.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: 50vh;
+}
+
+.play {
+    float: right;
+    margin-right: 6%;
+    margin-top: 220px;
+}
+
+p {
+    color: #fff;
+    float: right;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.img4 {
+    width: 70px;
+}
+/* SHOWCASE ENDS */
+
+/* FEATURE 1 BEGINS*/
+.feat1 {
+    margin-top: 100px;
+    padding: 20px 30px;
+}
+
+.feat1 p {
+    color: var(--navyblue);
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.movie {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.mov {
+    display: flex;
+    flex-direction: column;
+}
+.img5 {
+    border-radius: 20px;
+}
+.par {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--navyblue);
+    margin-top: 10px;
+}
+
+a:hover {
+    color: var(--YLW2);
+}
+
+/* FEATURE 1 ENDS */
+
+/* FEATURE 2 BEGINS */
+.feat2 {
+    align-items: center;
+    display: flex;
+    padding: 10px 500px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.bnn a:hover {
+    color: var(--navyblue);
+    text-decoration: none;
+}
+/* FEATURE 2 ENDS */
+
+/* FOOTER */
+footer {
+    position: absolute;
+    width: 100%;
+    background-color: #13203C;
+    color: var(--MILK2);
+    padding: 50px 0;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content:space-between;
+}
+
+.col {
+    flex-basis: 25%;
+     padding: 5px;
+}
+
+.col h3 {
+    width: fit-content;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+form {
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+}
+form input {
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-weight: bold;
+}
